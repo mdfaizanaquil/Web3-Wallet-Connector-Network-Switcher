@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web3 Wallet Connector</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Wallet Connector</h1>
+        <button id="connectBtn">Connect Wallet</button>
+        <div id="walletInfo" class="hidden">
+            <p id="address"></p>
+            <p id="network"></p>
+            <button id="switchBtn">Switch to Base</button>
+        </div>
+    </div>
+    <script src="https://cdn.ethers.io/lib/ethers-5.7.umd.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
