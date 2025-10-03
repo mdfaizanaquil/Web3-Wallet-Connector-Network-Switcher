@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif; background-color: #121212; color: #fff;
+    display: flex; justify-content: center; align-items: center; height: 100vh; margin: 0;
+}
+.container {
+    text-align: center; background-color: #1e1e1e; padding: 30px; border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5); min-width: 400px;
+}
+button {
+    padding: 10px 20px; border: none; border-radius: 5px; background-color: #007bff;
+    color: white; cursor: pointer; font-size: 16px; margin-top: 10px;
+}
+#walletInfo {
+    margin-top: 20px; background-color: #2c2c2c; padding: 15px; border-radius: 5px;
+}
+#walletInfo p {
+    margin: 10px 0;
+    word-wrap: break-word;
+}
+.hidden {
+    display: none;
+}
